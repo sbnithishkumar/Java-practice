@@ -1,4 +1,4 @@
-package Section01_Arrays;
+package section01_Arrays;
 
 import java.util.Arrays;
 import java.util.Collections;
