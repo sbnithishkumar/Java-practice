@@ -14,7 +14,8 @@ class ArrayRotation {
             }
             arr[arr.length - 1] = temp;
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));  // array left rotation
+        
         String[] arr2 = {"one", "two", "three", "four", "five"};
         int rotationCount = 3;
         for (int i = 0; i < rotationCount; i++) {
@@ -25,7 +26,8 @@ class ArrayRotation {
             arr2[0] = temp;
 
         }
-        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr2));  // array right rotation
+        
         String[] arr3={"one","two","three","four","five"};
         Collections.rotate(Arrays.asList(arr3),-3);
         System.out.println(Arrays.toString(arr3));
